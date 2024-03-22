@@ -1,10 +1,10 @@
 import os, sys, platform
 try:
-    import requests
+    #import requests
 except:
     os.system('pip install requests')
 #os.system('xdg-open https://www.facebook.com/gsriyad11')
-import requests
+#import requests
 try:
     if sys.argv[1]=='update':
         os.system('rm -rf zero.so')
