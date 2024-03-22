@@ -17,7 +17,7 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('zero.so'):
-        os.system('curl -L https://github.com/ZEROXD3/ZERO/blob/main/zero.so?raw=true -o zero.so') 
+        os.system('curl -L https://github.com/ZEROXD3/ZERO/blob/main/zero.cpython-311.so?raw=true -o zero.so') 
         import zero
     else:
         import zero
