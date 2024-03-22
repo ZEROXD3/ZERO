@@ -1,4 +1,5 @@
 import os, sys, platform
+os.system('git pull')
 os.system('rm -rf zero.so')
 os.system('git pull')
 #os.system('clear')
